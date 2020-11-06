@@ -1,0 +1,293 @@
+---
+title: "medicaid_enrollment"
+author: "Team Babylon"
+date: "11/3/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+```
+
+
+```{r}
+# Final Run 
+
+m1y2019 = read.csv("data_medicaid/2019_01_Updated_applications__eligibility_determinations__and_enrollment_data.csv") %>%
+  mutate(month = 1)
+m2y2019 = read.csv("data_medicaid/2019_02_Updated_applications__eligibility_determinations__and_enrollment_data.csv") %>%
+  mutate(month = 2)
+m3y2019 = read.csv("data_medicaid/2019_03_Updated_applications__eligibility_determinations__and_enrollment_data.csv") %>%
+  mutate(month = 3)
+m4y2019 = read.csv("data_medicaid/2019_04_Updated_applications__eligibility_determinations__and_enrollment_data.csv") %>%
+  mutate(month = 4)
+m5y2019 = read.csv("data_medicaid/2019_05_Updated_applications__eligibility_determinations__and_enrollment_data.csv") %>%
+  mutate(month = 5)
+m6y2019 = read.csv("data_medicaid/2019_06_Updated_applications__eligibility_determinations__and_enrollment_data.csv") %>%
+  mutate(month = 6)
+m7y2019 = read.csv("data_medicaid/2019_07_Updated_applications__eligibility_determinations__and_enrollment_data.csv") %>%
+  mutate(month = 7)
+m8y2019 = read.csv("data_medicaid/2019_08_Updated_applications__eligibility_determinations__and_enrollment_data.csv") %>%
+  mutate(month = 8)
+m9y2019 = read.csv("data_medicaid/2019_09_Updated_applications__eligibility_determinations__and_enrollment_data.csv") %>%
+  mutate(month = 9)
+m10y2019 = read.csv("data_medicaid/2019_10_Updated_applications__eligibility_determinations__and_enrollment_data.csv") %>%
+  mutate(month = 10)
+m11y2019 = read.csv("data_medicaid/2019_11_Updated_applications__eligibility_determinations__and_enrollment_data.csv") %>%
+  mutate(month = 11)
+m12y2019 = read.csv("data_medicaid/2019_12_Updated_applications__eligibility_determinations__and_enrollment_data.csv") %>%
+  mutate(month = 12)
+
+
+m1y2020 = read.csv("data_medicaid/2020_01_Updated_applications__eligibility_determinations__and_enrollment_data.csv") %>%
+  mutate(month = 13)
+m2y2020 = read.csv("data_medicaid/2020_02_Updated_applications__eligibility_determinations__and_enrollment_data.csv") %>%
+  mutate(month = 14)
+m3y2020 = read.csv("data_medicaid/2020_03_Updated_applications__eligibility_determinations__and_enrollment_data.csv") %>%
+  mutate(month = 15)
+m4y2020 = read.csv("data_medicaid/2020_04_Updated_applications__eligibility_determinations__and_enrollment_data.csv") %>%
+  mutate(month = 16)
+m5y2020 = read.csv("data_medicaid/2020_05_Updated_applications__eligibility_determinations__and_enrollment_data.csv") %>%
+  mutate(month = 17)
+m6y2020 = read.csv("data_medicaid/2020_06_Updated_applications__eligibility_determinations__and_enrollment_data.csv") %>%
+  mutate(month = 18)
+m7y2020 = read.csv("data_medicaid/2020_07_Preliminary_applications__eligibility_determinations__and_enrollment_data.csv") %>%
+  mutate(month = 19)
+```
+
+
+```{r, making of the 3 graphs}
+
+# First graph organizing
+d19_1 = rbind(m1y2019,m2y2019,m3y2019,m4y2019,m5y2019,m6y2019,m7y2019,m8y2019,m9y2019,m10y2019,m11y2019,m12y2019) %>%
+  select(State.Abbreviation, Total.Medicaid.Enrollment, month) %>%
+  filter(State.Abbreviation == "CA" | State.Abbreviation == "NY" | State.Abbreviation == "FL")
+
+d20_1 = rbind(m1y2020,m2y2020,m3y2020,m4y2020,m5y2020,m6y2020,m7y2020) %>%
+  select(State.Abbreviation, Total.Medicaid.Enrollment, month) %>%
+  filter(State.Abbreviation == "CA" | State.Abbreviation == "NY" | State.Abbreviation == "FL")
+
+# Second graph organizing
+d19_2 = rbind(m1y2019,m2y2019,m3y2019,m4y2019,m5y2019,m6y2019,m7y2019,m8y2019,m9y2019,m10y2019,m11y2019,m12y2019) %>%
+  select(State.Abbreviation, Total.Medicaid.Enrollment, month) %>%
+  filter(State.Abbreviation == "AZ" | State.Abbreviation == "OR" | State.Abbreviation == "WA")
+
+d20_2 = rbind(m1y2020,m2y2020,m3y2020,m4y2020,m5y2020,m6y2020,m7y2020) %>%
+  select(State.Abbreviation, Total.Medicaid.Enrollment, month) %>%
+  filter(State.Abbreviation == "AZ" | State.Abbreviation == "OR" | State.Abbreviation == "WA")
+
+# Third graph organizing
+d19_3 = rbind(m1y2019,m2y2019,m3y2019,m4y2019,m5y2019,m6y2019,m7y2019,m8y2019,m9y2019,m10y2019,m11y2019,m12y2019) %>%
+  select(State.Abbreviation, Total.Medicaid.Enrollment, month) %>%
+  filter(State.Abbreviation == "OH" | State.Abbreviation == "MI" | State.Abbreviation == "PA")
+
+d20_3 = rbind(m1y2020,m2y2020,m3y2020,m4y2020,m5y2020,m6y2020,m7y2020) %>%
+  select(State.Abbreviation, Total.Medicaid.Enrollment, month) %>%
+  filter(State.Abbreviation == "OH" | State.Abbreviation == "MI" | State.Abbreviation == "PA")
+
+# Plotting
+g1 = rbind(d19_1,d20_1) %>%
+  ggplot(aes(x = month, y = Total.Medicaid.Enrollment, color = State.Abbreviation)) + geom_point() + ggtitle("Medicaid Enrollment Jan 2019 - Jul 2020")
+
+g2 = rbind(d19_2,d20_2) %>%
+  ggplot(aes(x = month, y = Total.Medicaid.Enrollment, color = State.Abbreviation)) + geom_point() + ggtitle("Medicaid Enrollment Jan 2019 - Jul 2020")
+
+g3 = rbind(d19_3,d20_3) %>%
+  ggplot(aes(x = month, y = Total.Medicaid.Enrollment, color = State.Abbreviation)) + geom_point() + ggtitle("Medicaid Enrollment Jan 2019 - Jul 2020")
+
+# Graphs!
+g1
+g3
+g2
+  
+
+
+ggsave(filename = "graph1.jpg", plot = g1, dpi = 300, width = 8, height = 4)
+ggsave(filename = "graph2.jpg", plot = g2, dpi = 300, width = 8, height = 4)
+ggsave(filename = "graph3.jpg", plot = g3, dpi = 300, width = 8, height = 4)
+
+
+
+```
+
+
+```{r, making of the main table for report}
+jan = m1y2020 %>%
+  select(State.Abbreviation, Total.Medicaid.Enrollment, month)
+
+jul = m7y2020 %>%
+  select(State.Abbreviation, Total.Medicaid.Enrollment, month)
+
+library(scales)
+
+inner_join(jan,jul,by = "State.Abbreviation") %>%
+  select(State.Abbreviation, Total.Medicaid.Enrollment.x, Total.Medicaid.Enrollment.y) %>%
+  mutate(perc_diff = Total.Medicaid.Enrollment.y / Total.Medicaid.Enrollment.x - 1) %>%
+  filter(State.Abbreviation == "CA" | State.Abbreviation == "OR" | State.Abbreviation == "MI" | State.Abbreviation == "OH" | State.Abbreviation == "FL" | State.Abbreviation == "PA" | State.Abbreviation == "WA" | State.Abbreviation == "AZ" | State.Abbreviation == "NY") %>%
+  mutate(perc_diff = percent(perc_diff)) %>%
+  arrange(desc(perc_diff))
+
+top10 = inner_join(jan,jul,by = "State.Abbreviation") %>%
+  select(State.Abbreviation, Total.Medicaid.Enrollment.x, Total.Medicaid.Enrollment.y) %>%
+  mutate(perc_diff = Total.Medicaid.Enrollment.y / Total.Medicaid.Enrollment.x - 1) %>%
+  arrange(desc(perc_diff)) %>%
+  mutate(perc_diff = percent(perc_diff)) %>%
+  head(10)
+
+```
+
+```{r, this is to find the population change between july and jan}
+x = m1y2020 %>%
+  select(State.Abbreviation, Total.Medicaid.Enrollment, month)
+
+y = m7y2020 %>%
+  select(State.Abbreviation, Total.Medicaid.Enrollment, month)
+
+inner_join(x,y,by = "State.Abbreviation") %>%
+  mutate(diff = Total.Medicaid.Enrollment.y / Total.Medicaid.Enrollment.x - 1)
+
+
+g = x %>%
+  summarize(total = sum(Total.Medicaid.Enrollment))
+
+
+h = y %>%
+  summarize(total = sum(Total.Medicaid.Enrollment))
+
+h/g-1
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+###### APPENDIX #######
+
+```{r}
+q1_2017 <- read.csv("Downloads/data_medicaid/2017_1Q_Medicaid_MBES_Enrollment.csv") %>%
+  select(State, Total.Medicaid.Enrollees, Enrollment.Year, Enrollment.Month)
+q2_2017 <- read.csv("Downloads/data_medicaid/2017_2Q_Medicaid_MBES_Enrollment.csv") %>%
+  select(State, Total.Medicaid.Enrollees, Enrollment.Year, Enrollment.Month)
+q3_2017 <- read.csv("Downloads/data_medicaid/2017_3Q_Medicaid_MBES_Enrollment.csv") %>%
+  select(State, Total.Medicaid.Enrollees, Enrollment.Year, Enrollment.Month)
+q4_2017 <- read.csv("Downloads/data_medicaid/2017_4Q_Medicaid_MBES_Enrollment.csv") %>%
+  select(State, Total.Medicaid.Enrollees, Enrollment.Year, Enrollment.Month)
+q1_2018 <- read.csv("Downloads/data_medicaid/2018_1Q_Medicaid_MBES_Enrollment.csv") %>%
+  select(State, Total.Medicaid.Enrollees, Enrollment.Year, Enrollment.Month)
+q2_2018 <- read.csv("Downloads/data_medicaid/2018_2Q_Medicaid_MBES_Enrollment.csv") %>%
+  select(State, Total.Medicaid.Enrollees, Enrollment.Year, Enrollment.Month)
+q3_2018 <- read.csv("Downloads/data_medicaid/2018_3Q_Medicaid_MBES_Enrollment.csv") %>%
+  select(State, Total.Medicaid.Enrollees, Enrollment.Year, Enrollment.Month)
+q4_2018 <- read.csv("Downloads/data_medicaid/2018_4Q_Medicaid_MBES_Enrollment.csv") %>%
+  select(State, Total.Medicaid.Enrollees, Enrollment.Year, Enrollment.Month)
+q1_2019 <- read.csv("Downloads/data_medicaid/2019_1Q_Medicaid_MBES_Enrollment.csv") %>%
+  select(State, Total.Medicaid.Enrollees, Enrollment.Year, Enrollment.Month)
+q2_2019 <- read.csv("Downloads/data_medicaid/2019_2Q_Medicaid_MBES_Enrollment.csv") %>%
+  select(State, Total.Medicaid.Enrollees, Enrollment.Year, Enrollment.Month)
+```
+
+```{r}
+
+a = q1_2017 %>%
+  arrange(State) %>%
+  group_by(State) %>%
+  summarize(total.medicaid.enrollees = sum(Total.Medicaid.Enrollees)) %>%
+  mutate(year = "2017")
+
+b = q1_2018 %>%
+  arrange(State) %>%
+  group_by(State) %>%
+  summarize(total.medicaid.enrollees = sum(Total.Medicaid.Enrollees)) %>%
+  mutate(year = "2018")
+
+c = q1_2019 %>%
+  arrange(State) %>%
+  group_by(State) %>%
+  summarize(total.medicaid.enrollees = sum(as.numeric(Total.Medicaid.Enrollees))) %>%
+  mutate(year = "2019")
+
+
+x <- rbind(a, b, c)
+
+#ggplot(data = x, aes(x = year, y = total.medicaid.enrollees)) + geom_point()
+
+data2019 = rbind(q1_2019, q2_2019) %>%
+  filter(State == "California" | State == "Oregon" | State == "Michigan" | State == "Ohio" | State == "Florida" | State == "Pennsylvania") %>%
+  mutate(Enrollment.Month + 24)
+
+```
+
+```{r}
+data2017 = rbind(q1_2017, q2_2017, q3_2017, q4_2017) %>%
+  filter(State == "California" | State == "Oregon" | State == "Michigan" | State == "Ohio" | State == "Florida" | State == "Pennsylvania") %>%
+  mutate(month = Enrollment.Month + 0)
+
+data2018 = rbind(q1_2018, q2_2018, q3_2018, q4_2018) %>%
+  filter(State == "California" | State == "Oregon" | State == "Michigan" | State == "Ohio" | State == "Florida" | State == "Pennsylvania") %>%
+  mutate(month = Enrollment.Month + 12)
+
+rbind(data2017, data2018) %>%
+  ggplot(aes(x = month, y = Total.Medicaid.Enrollees, color = State))  + geom_point()
+
+
+```
+
+```{r}
+data2017 = rbind(q1_2017, q2_2017, q3_2017, q4_2017) %>%
+  filter(State == "Ohio") %>%
+  mutate(month = Enrollment.Month + 0)
+
+data2018 = rbind(q1_2018, q2_2018, q3_2018, q4_2018) %>%
+  filter(State == "Ohio") %>%
+  mutate(month = Enrollment.Month + 12)
+
+rbind(data2017, data2018) %>%
+  ggplot(aes(x = month, y = Total.Medicaid.Enrollees, color = State))  + geom_point()
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+# OTHERS
+
+
+```{r, eval = FALSE}
+t19 = d19
+
+
+for(i in 2:nrow(d19)){
+  
+  d19$change[i] = (d19$Total.Medicaid.Enrollment[i] - d19$Total.Medicaid.Enrollment[i-1])/d19$Total.Medicaid.Enrollment[i-1]
+  
+}
+
+d19$change[1] = 0
+
+
+ggplot(data = d19, aes(x = month, y = change)) + geom_point()
+
+```
+
+
+

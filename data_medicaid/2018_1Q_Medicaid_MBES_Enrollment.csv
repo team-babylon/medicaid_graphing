@@ -1,0 +1,331 @@
+State,Total Medicaid Enrollees,Total VIII Group Enrollees,Total VIII Group Newly Eligible Enrollees,Total VIII Group Not Newly Eligible Enrollees,Updated Year,Updated Month,Enrollment Year,Enrollment Month,Location,Notes
+Rhode Island,309510,69769,69769,0,2019,12,2018,1,"Rhode Island
+(41.572574, -71.534637)",
+Wyoming,59029,,,,2019,12,2018,2,"Wyoming
+(42.999627, -107.55145)",
+Idaho,307284,,,,2019,12,2018,2,"Idaho
+(44.389073, -114.659366)",
+Montana,256778,96040,96040,0,2019,12,2018,3,"Montana
+(47.033521, -109.645127)","Montana expanded its Medicaid program by adopting the VIII Group on January 1, 2016."
+Louisiana,1645807,478722,478722,0,2019,12,2018,3,"Louisiana
+(30.921314, -91.840238)","Louisiana is expanding its Medicaid program by adopting the VIII Group on July 1, 2016."
+New Mexico,855320,256228,256228,0,2019,12,2018,3,"New Mexico
+(34.421369, -106.108388)",
+Virginia,1053905,,,,2019,12,2018,3,"Virginia
+(37.510861, -78.666382)","Virginia expanded its Medicaid program by adopting the VIII Group on January 1, 2019."
+Utah,298611,,,,2019,12,2018,1,"Utah
+(39.323779, -111.678222)",
+Alaska,197607,43817,43788,29,2019,12,2018,3,"Alaska
+(63.631126, -151.631889)","Alaska expanded its Medicaid program by adopting the VIII Group on September 1, 2015."
+North Carolina,2167786,,,,2019,12,2018,3,"North Carolina
+(35.52603, -79.130883)",
+Dist. Of Col.,264587,113085,71873,41212,2019,12,2018,2,,
+South Dakota,105352,,,,2019,12,2018,1,"South Dakota
+(44.43614, -100.230491)",
+Delaware,211567,63099,10492,52607,2019,12,2018,2,"Delaware
+(38.994926, -75.452394)",
+Utah,300615,,,,2019,12,2018,2,"Utah
+(39.323779, -111.678222)",
+California,13106525,3826607,3826607,0,2019,12,2018,2,"California
+(37.211164, -119.662127)",
+New Mexico,863477,257654,257654,0,2019,12,2018,1,"New Mexico
+(34.421369, -106.108388)",
+Alaska,196618,43303,43271,32,2019,12,2018,2,"Alaska
+(63.631126, -151.631889)","Alaska expanded its Medicaid program by adopting the VIII Group on September 1, 2015."
+Florida,3993964,,,,2019,12,2018,1,"Florida
+(28.260731, -82.420978)",
+Illinois,2943884,751967,645732,106235,2019,12,2018,1,"Illinois
+(40.124144, -89.148632)",
+Nebraska,245972,,,,2019,12,2018,1,"Nebraska
+(41.527099, -99.810595)",
+Guam,35693,3892,,3892,2019,12,2018,2,"Guam
+(13.3532, 144.653198)",
+South Carolina,1258139,,,,2019,12,2018,1,"South Carolina
+(33.878572, -80.864614)",
+Mississippi,700020,,,,2019,12,2018,1,"Mississippi
+(32.713378, -89.65344)",
+Louisiana,1647411,476258,476258,0,2019,12,2018,2,"Louisiana
+(30.921314, -91.840238)","Louisiana is expanding its Medicaid program by adopting the VIII Group on July 1, 2016."
+N. Mariana Islands,1196,,,,2019,12,2018,2,,
+Georgia,1955309,,,,2019,12,2018,1,"Georgia
+(32.638481, -83.426574)",
+Tennessee,1615240,,,,2019,12,2018,2,"Tennessee
+(35.842998, -86.343226)",
+Maryland,1233989,312583,312583,0,2019,12,2018,2,"Maryland
+(38.946466, -76.687282)",
+Iowa,600397,161393,148219,13174,2019,12,2018,3,"Iowa
+(42.074659, -93.500061)",
+South Carolina,1259686,,,,2019,12,2018,3,"South Carolina
+(33.878572, -80.864614)",
+Washington,1791975,582620,569170,13450,2019,12,2018,2,"Washington
+(47.411715, -120.592492)",
+Michigan,2445117,694972,633228,61744,2019,12,2018,1,"Michigan
+(44.874798, -85.730977)","Michigan expanded its Medicaid program by adopting the VIII Group on April 1, 2014."
+Maryland,1228669,311497,311497,0,2019,12,2018,1,"Maryland
+(38.946466, -76.687282)",
+South Carolina,1258564,,,,2019,12,2018,2,"South Carolina
+(33.878572, -80.864614)",
+Ohio,3000873,630618,630276,342,2019,12,2018,3,"Ohio
+(40.415534, -82.70936)",
+Illinois,2867512,731008,624350,106658,2019,12,2018,3,"Illinois
+(40.124144, -89.148632)",
+Oklahoma,651872,,,,2019,12,2018,2,"Oklahoma
+(35.583449, -97.508297)",
+Ohio,3022167,645274,644909,365,2019,12,2018,1,"Ohio
+(40.415534, -82.70936)",
+Puerto Rico,1265467,395156,,395156,2019,12,2018,3,"Puerto Rico
+(18.215692, -66.414655)",
+Colorado,1294260,415324,413149,2175,2019,12,2018,3,"Colorado
+(38.998552, -105.547832)",
+Delaware,210486,62756,10293,52463,2019,12,2018,3,"Delaware
+(38.994926, -75.452394)",
+Virginia,1052069,,,,2019,12,2018,2,"Virginia
+(37.510861, -78.666382)","Virginia expanded its Medicaid program by adopting the VIII Group on January 1, 2019."
+North Dakota,93285,20666,19610,1056,2019,12,2018,3,"North Dakota
+(47.446305, -100.46931)",
+Hawaii,330477,120260,22747,97513,2019,12,2018,1,"Hawaii
+(21.361013, -157.854309)",
+Wisconsin,1191001,,,,2019,12,2018,3,"Wisconsin
+(44.639954, -89.732969)",
+New York,6167453,1936529,303337,1633192,2019,12,2018,3,"New York
+(42.921241, -75.59655)",
+Utah,299796,,,,2019,12,2018,3,"Utah
+(39.323779, -111.678222)",
+Dist. Of Col.,263558,112784,71290,41494,2019,12,2018,1,,
+Georgia,1960635,,,,2019,12,2018,2,"Georgia
+(32.638481, -83.426574)",
+Kentucky,1357355,492751,492751,0,2019,12,2018,3,"Kentucky
+(37.526683, -85.290484)",
+Pennsylvania,2741703,796559,755486,41073,2019,12,2018,3,"Pennsylvania
+(40.896694, -77.838886)","Pennsylvania expanded its Medicaid program by adopting the VIII Group on January 1, 2015."
+Maryland,1237993,313593,313593,0,2019,12,2018,3,"Maryland
+(38.946466, -76.687282)",
+Wisconsin,1192743,,,,2019,12,2018,2,"Wisconsin
+(44.639954, -89.732969)",
+Delaware,211708,63045,10538,52507,2019,12,2018,1,"Delaware
+(38.994926, -75.452394)",
+Georgia,1963489,,,,2019,12,2018,3,"Georgia
+(32.638481, -83.426574)",
+Nevada,598902,214266,214266,0,2019,12,2018,3,"Nevada
+(39.283294, -114.916992)",
+West Virginia,540782,168038,168038,0,2019,12,2018,3,"West Virginia
+(38.642579, -80.613729)",
+Kentucky,1356170,493607,493607,0,2019,12,2018,2,"Kentucky
+(37.526683, -85.290484)",
+Massachusetts,1817350,376408,0,376408,2019,12,2018,2,"Massachusetts
+(42.151077, -71.481104)",
+Virgin Islands,24528,9958,,9958,2019,12,2018,3,"Virgin Islands
+(18.060868, -64.840836)","Virgin Island expanded its Medicaid program by adopting the VIII Group on June 1, 2015"
+Indiana,1356203,446208,326576,119632,2019,12,2018,1,"Indiana
+(39.919991, -86.2818)","Indiana expanded its Medicaid program by adopting the VIII Group on February 1, 2015"
+Puerto Rico,1265139,387916,,387916,2019,12,2018,2,"Puerto Rico
+(18.215692, -66.414655)",
+Arkansas,920504,294581,294263,318,2019,12,2018,1,"Arkansas
+(34.899825, -92.439162)",
+Vermont,178664,58855,0,58855,2019,12,2018,2,"Vermont
+(44.075252, -72.662695)",
+Nevada,598715,215236,215236,0,2019,12,2018,1,"Nevada
+(39.283294, -114.916992)",
+North Carolina,2147230,,,,2019,12,2018,1,"North Carolina
+(35.52603, -79.130883)",
+Indiana,1327002,310196,310196,0,2019,12,2018,3,"Indiana
+(39.919991, -86.2818)","Indiana expanded its Medicaid program by adopting the VIII Group on February 1, 2015"
+Florida,3917285,,,,2019,12,2018,3,"Florida
+(28.260731, -82.420978)",
+Pennsylvania,2746922,798738,757557,41181,2019,12,2018,2,"Pennsylvania
+(40.896694, -77.838886)","Pennsylvania expanded its Medicaid program by adopting the VIII Group on January 1, 2015."
+Missouri,968154,,,,2019,12,2018,1,"Missouri
+(38.3675, -92.477244)",
+Virginia,1047599,,,,2019,12,2018,1,"Virginia
+(37.510861, -78.666382)","Virginia expanded its Medicaid program by adopting the VIII Group on January 1, 2019."
+Wisconsin,1190616,,,,2019,12,2018,1,"Wisconsin
+(44.639954, -89.732969)",
+Amer. Samoa,27898,,,,2019,12,2018,2,,
+Arizona,1889445,420428,109296,311132,2019,12,2018,2,"Arizona
+(34.293239, -111.664616)",
+South Dakota,105968,,,,2019,12,2018,3,"South Dakota
+(44.43614, -100.230491)",
+Montana,257398,95667,95667,0,2019,12,2018,2,"Montana
+(47.033521, -109.645127)","Montana expanded its Medicaid program by adopting the VIII Group on January 1, 2016."
+Oklahoma,645541,,,,2019,12,2018,3,"Oklahoma
+(35.583449, -97.508297)",
+Massachusetts,2007685,432659,0,432659,2019,12,2018,3,"Massachusetts
+(42.151077, -71.481104)",
+Oklahoma,656753,,,,2019,12,2018,1,"Oklahoma
+(35.583449, -97.508297)",
+Alaska,196284,42966,42938,28,2019,12,2018,1,"Alaska
+(63.631126, -151.631889)","Alaska expanded its Medicaid program by adopting the VIII Group on September 1, 2015."
+Wyoming,59092,,,,2019,12,2018,1,"Wyoming
+(42.999627, -107.55145)",
+Maine,256182,0,0,0,2019,12,2018,1,"Maine
+(45.117911, -69.06137)","Maine expanded its Medicaid program by adopting the VIII Group on July 1, 2018."
+Texas,4285311,,,,2019,12,2018,3,"Texas
+(31.447238, -99.317341)",
+Kansas,370313,,,,2019,12,2018,2,"Kansas
+(38.484729, -98.38018)",
+Virgin Islands,24198,9751,,9751,2019,12,2018,2,"Virgin Islands
+(18.060868, -64.840836)","Virgin Island expanded its Medicaid program by adopting the VIII Group on June 1, 2015"
+North Carolina,2150335,,,,2019,12,2018,2,"North Carolina
+(35.52603, -79.130883)",
+Missouri,958954,,,,2019,12,2018,3,"Missouri
+(38.3675, -92.477244)",
+New Jersey,1699435,568669,568669,0,2019,12,2018,2,"New Jersey
+(40.110253, -74.655514)",
+Florida,3968314,,,,2019,12,2018,2,"Florida
+(28.260731, -82.420978)",
+Rhode Island,308248,69290,69290,0,2019,12,2018,3,"Rhode Island
+(41.572574, -71.534637)",
+Idaho,309471,,,,2019,12,2018,1,"Idaho
+(44.389073, -114.659366)",
+Michigan,2450490,699032,638686,60346,2019,12,2018,3,"Michigan
+(44.874798, -85.730977)","Michigan expanded its Medicaid program by adopting the VIII Group on April 1, 2014."
+Virgin Islands,23934,9617,,9617,2019,12,2018,1,"Virgin Islands
+(18.060868, -64.840836)","Virgin Island expanded its Medicaid program by adopting the VIII Group on June 1, 2015"
+Minnesota,1107477,210270,209570,700,2019,12,2018,1,"Minnesota
+(46.349153, -94.198308)",
+Illinois,2892062,737515,631243,106272,2019,12,2018,2,"Illinois
+(40.124144, -89.148632)",
+California,13175429,3847630,3847630,0,2019,12,2018,1,"California
+(37.211164, -119.662127)",
+California,12966593,3787079,3787079,0,2019,12,2018,3,"California
+(37.211164, -119.662127)",
+Massachusetts,1809251,369509,0,369509,2019,12,2018,1,"Massachusetts
+(42.151077, -71.481104)",
+Alabama,1018967,,,,2019,12,2018,2,"Alabama
+(32.756889, -86.844516)",
+Louisiana,1647299,473172,473172,0,2019,12,2018,1,"Louisiana
+(30.921314, -91.840238)","Louisiana is expanding its Medicaid program by adopting the VIII Group on July 1, 2016."
+Puerto Rico,1257013,383202,,383202,2019,12,2018,1,"Puerto Rico
+(18.215692, -66.414655)",
+New Hampshire,191335,56780,56508,272,2019,12,2018,1,"New Hampshire
+(43.680429, -71.57139)","New Hampshire expanded its Medicaid program by adopting the VIII Group on August 15, 2014"
+Hawaii,331796,121219,22886,98333,2019,12,2018,3,"Hawaii
+(21.361013, -157.854309)",
+Iowa,598557,159281,146143,13138,2019,12,2018,2,"Iowa
+(42.074659, -93.500061)",
+Connecticut,927932,246769,225756,21013,2019,12,2018,3,"Connecticut
+(41.575155, -72.738288)",
+Kansas,370031,,,,2019,12,2018,3,"Kansas
+(38.484729, -98.38018)",
+Hawaii,331067,120890,22889,98001,2019,12,2018,2,"Hawaii
+(21.361013, -157.854309)",
+Nebraska,246679,,,,2019,12,2018,2,"Nebraska
+(41.527099, -99.810595)",
+Nebraska,247459,,,,2019,12,2018,3,"Nebraska
+(41.527099, -99.810595)",
+Colorado,1303683,410736,408472,2264,2019,12,2018,1,"Colorado
+(38.998552, -105.547832)",
+Oregon,953677,451266,380076,71190,2019,12,2018,3,"Oregon
+(43.940449, -120.605279)",
+West Virginia,542281,169044,169044,0,2019,12,2018,1,"West Virginia
+(38.642579, -80.613729)",
+Guam,35203,3869,,3869,2019,12,2018,3,"Guam
+(13.3532, 144.653198)",
+Arkansas,929130,300840,300546,294,2019,12,2018,2,"Arkansas
+(34.899825, -92.439162)",
+N. Mariana Islands,1492,,,,2019,12,2018,1,,
+West Virginia,542038,168039,168039,0,2019,12,2018,2,"West Virginia
+(38.642579, -80.613729)",
+Totals,76816414,15643345,12338135,3305210,2019,12,2018,2,,
+Minnesota,1078140,202237,201547,690,2019,12,2018,3,"Minnesota
+(46.349153, -94.198308)",
+Totals,77061511,15805637,12384750,3421157,2019,12,2018,1,,
+Dist. Of Col.,261661,110826,70172,40654,2019,12,2018,3,,
+Pennsylvania,2745884,798424,757342,41082,2019,12,2018,1,"Pennsylvania
+(40.896694, -77.838886)","Pennsylvania expanded its Medicaid program by adopting the VIII Group on January 1, 2015."
+New York,6166041,1937397,303464,1633933,2019,12,2018,2,"New York
+(42.921241, -75.59655)",
+Arkansas,922157,292573,292299,274,2019,12,2018,3,"Arkansas
+(34.899825, -92.439162)",
+Mississippi,696685,,,,2019,12,2018,2,"Mississippi
+(32.713378, -89.65344)",
+Maine,256424,0,0,0,2019,12,2018,2,"Maine
+(45.117911, -69.06137)","Maine expanded its Medicaid program by adopting the VIII Group on July 1, 2018."
+New Jersey,1690042,567189,567189,0,2019,12,2018,3,"New Jersey
+(40.110253, -74.655514)",
+South Dakota,105692,,,,2019,12,2018,2,"South Dakota
+(44.43614, -100.230491)",
+Tennessee,1604631,,,,2019,12,2018,3,"Tennessee
+(35.842998, -86.343226)",
+New Hampshire,190733,56186,55908,278,2019,12,2018,2,"New Hampshire
+(43.680429, -71.57139)","New Hampshire expanded its Medicaid program by adopting the VIII Group on August 15, 2014"
+New Hampshire,189766,55736,55450,286,2019,12,2018,3,"New Hampshire
+(43.680429, -71.57139)","New Hampshire expanded its Medicaid program by adopting the VIII Group on August 15, 2014"
+Tennessee,1641168,,,,2019,12,2018,1,"Tennessee
+(35.842998, -86.343226)",
+Arizona,1912427,426466,111692,314774,2019,12,2018,1,"Arizona
+(34.293239, -111.664616)",
+Arizona,1871923,415803,107641,308162,2019,12,2018,3,"Arizona
+(34.293239, -111.664616)",
+Michigan,2446407,696572,635680,60892,2019,12,2018,2,"Michigan
+(44.874798, -85.730977)","Michigan expanded its Medicaid program by adopting the VIII Group on April 1, 2014."
+Wyoming,59067,,,,2019,12,2018,3,"Wyoming
+(42.999627, -107.55145)",
+Alabama,1020587,,,,2019,12,2018,1,"Alabama
+(32.756889, -86.844516)",
+Iowa,594982,157220,144106,13114,2019,12,2018,1,"Iowa
+(42.074659, -93.500061)",
+Maine,257452,0,0,0,2019,12,2018,3,"Maine
+(45.117911, -69.06137)","Maine expanded its Medicaid program by adopting the VIII Group on July 1, 2018."
+Missouri,963062,,,,2019,12,2018,2,"Missouri
+(38.3675, -92.477244)",
+Connecticut,913961,241433,221086,20347,2019,12,2018,2,"Connecticut
+(41.575155, -72.738288)",
+Idaho,299518,,,,2019,12,2018,3,"Idaho
+(44.389073, -114.659366)",
+Washington,1799869,584973,571589,13384,2019,12,2018,1,"Washington
+(47.411715, -120.592492)",
+Totals,76672124,15628063,12263229,3364834,2019,12,2018,3,,
+Ohio,3014231,640211,639852,359,2019,12,2018,2,"Ohio
+(40.415534, -82.70936)",
+Oregon,967193,458746,386839,71907,2019,12,2018,1,"Oregon
+(43.940449, -120.605279)",
+Guam,35942,3871,,3871,2019,12,2018,1,"Guam
+(13.3532, 144.653198)",
+Minnesota,1095709,206685,205983,702,2019,12,2018,2,"Minnesota
+(46.349153, -94.198308)",
+Vermont,178454,58761,0,58761,2019,12,2018,1,"Vermont
+(44.075252, -72.662695)",
+Montana,256839,94916,94916,0,2019,12,2018,1,"Montana
+(47.033521, -109.645127)","Montana expanded its Medicaid program by adopting the VIII Group on January 1, 2016."
+Amer. Samoa,27898,,,,2019,12,2018,3,,
+Indiana,1346039,319894,319894,0,2019,12,2018,2,"Indiana
+(39.919991, -86.2818)","Indiana expanded its Medicaid program by adopting the VIII Group on February 1, 2015"
+New Jersey,1699765,568364,568364,0,2019,12,2018,1,"New Jersey
+(40.110253, -74.655514)",
+Texas,4304474,,,,2019,12,2018,2,"Texas
+(31.447238, -99.317341)",
+Nevada,598712,214570,214570,0,2019,12,2018,2,"Nevada
+(39.283294, -114.916992)",
+Kentucky,1353473,492959,492959,0,2019,12,2018,1,"Kentucky
+(37.526683, -85.290484)",
+Mississippi,692063,,,,2019,12,2018,3,"Mississippi
+(32.713378, -89.65344)",
+Oregon,959901,453840,382597,71243,2019,12,2018,2,"Oregon
+(43.940449, -120.605279)",
+Connecticut,920198,242204,222150,20054,2019,12,2018,1,"Connecticut
+(41.575155, -72.738288)",
+N. Mariana Islands,1473,,,,2019,12,2018,3,,
+Washington,1783138,579950,566816,13134,2019,12,2018,3,"Washington
+(47.411715, -120.592492)",
+Colorado,1298809,410725,408481,2244,2019,12,2018,2,"Colorado
+(38.998552, -105.547832)",
+North Dakota,93182,20818,19747,1071,2019,12,2018,2,"North Dakota
+(47.446305, -100.46931)",
+New Mexico,859338,257150,257150,0,2019,12,2018,2,"New Mexico
+(34.421369, -106.108388)",
+Vermont,178890,58948,0,58948,2019,12,2018,3,"Vermont
+(44.075252, -72.662695)",
+Kansas,374385,,,,2019,12,2018,1,"Kansas
+(38.484729, -98.38018)",
+Texas,4326704,,,,2019,12,2018,1,"Texas
+(31.447238, -99.317341)",
+Alabama,1022959,,,,2019,12,2018,3,"Alabama
+(32.756889, -86.844516)",
+Amer. Samoa,27898,,,,2019,12,2018,1,,
+North Dakota,93019,20893,19828,1065,2019,12,2018,1,"North Dakota
+(47.446305, -100.46931)",
+Rhode Island,309321,69813,69813,0,2019,12,2018,2,"Rhode Island
+(41.572574, -71.534637)",
+New York,6170793,1941667,304192,1637745,2019,12,2018,1,"New York
+(42.921241, -75.59655)",
